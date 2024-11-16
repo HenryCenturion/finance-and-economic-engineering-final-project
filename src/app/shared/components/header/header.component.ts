@@ -1,7 +1,7 @@
 import {Component, HostListener, OnInit} from '@angular/core';
 import {Router, RouterLink, RouterLinkActive} from '@angular/router';
-import {ThemeService} from '../services/theme.service';
-import {TranslationService} from '../services/translation.service';
+import {ThemeService} from '../../services/theme.service';
+import {TranslationService} from '../../services/translation.service';
 import {UserService} from '../../../business/services/user.service';
 import {TranslatePipe} from '@ngx-translate/core';
 import {NgClass, NgIf} from '@angular/common';

@@ -7,7 +7,7 @@ import {provideClientHydration} from '@angular/platform-browser';
 import {HttpClient, provideHttpClient, withFetch, withInterceptors} from '@angular/common/http';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
-import {authInterceptor} from './shared/components/services/auth.interceptor';
+import {authInterceptor} from './shared/services/auth.interceptor';
 
 export const appConfig: ApplicationConfig = {
   providers: [
